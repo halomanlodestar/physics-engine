@@ -2,6 +2,7 @@ import {Vector2} from "./vector.ts";
 
 export class Object {
 
+
   public velocity = new Vector2(0, 0);
   constructor(
     public position: Vector2,
