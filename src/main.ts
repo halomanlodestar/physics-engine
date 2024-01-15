@@ -15,4 +15,5 @@ function animate() {
   mainFrame.render()
   requestAnimationFrame(animate)
 }
+
 animate()
