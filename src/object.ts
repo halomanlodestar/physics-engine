@@ -9,6 +9,7 @@ export class Object {
     public mass: number
     ) {
   }
+
   public render(ctx: CanvasRenderingContext2D) {
     this.geometry(ctx, this.position);
     this.position.x += this.velocity.x;
